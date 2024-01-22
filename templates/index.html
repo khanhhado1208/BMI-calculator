@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block head %} 
+
+{% endblock %}
+
+{% block body %} 
+<form id="BMIForm" method="post" action="/">
+    <h1>BMI Calculator</h1>
+    <div>
+        <label for="weightValue">Weight in KG:</label>
+        <input type="text" id="weightValue" name="weight" placeholder="Enter Weight"> kg
+    </div>
+    <br>
+    <div>
+        <label for="heightValue">Height in cm:</label>
+        <input type="text" id="heightValue" name="height" placeholder="Enter Height"> cm
+    </div>
+    <br>
+    
+    <div>
+        <button type="submit" class="btn btn-primary">Calculate </button>
+    </div>
+    <br>
+    <div id="BMI">
+        {% if bmi %}
+            <p>Your BMI is {{ bmi }}</p>
+        {% endif %}
+    </div>
+</form>
+{% endblock %}
