@@ -20,4 +20,5 @@ Enter your height in centimeters.
 Click the "Calculate BMI" button.
 Your BMI will be displayed on the page.
 
-![image](https://github.com/khanhhado1208/BMI-calculator-/assets/55555713/4f6948e3-b6c0-4fef-84ba-40e5650a7d2a)
+![image](https://github.com/khanhhado1208/BMI-calculator-/assets/55555713/69770ca3-7f92-4746-9578-adf0f08de599)
+
